@@ -1,1 +1,1 @@
-# CloudParallex
+# Cloud Banner Parallax Effect
