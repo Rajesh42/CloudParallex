@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="banner">
+        <h2 id="text">Heaven</h2>
+        <div class="clouds">
+            <img src="./cloud1.png" alt="" style="--i:1;">
+            <img src="./cloud2.png" alt="" style="--i:2;">
+            <img src="./cloud3.png" alt="" style="--i:3;">
+            <img src="./cloud4.png" alt="" style="--i:4;">
+            <img src="./cloud5.png" alt="" style="--i:5;">
+            <img src="./cloud1.png" alt="" style="--i:10;">
+            <img src="./cloud2.png" alt="" style="--i:9;">
+            <img src="./cloud3.png" alt="" style="--i:8;">
+            <img src="./cloud4.png" alt="" style="--i:7;">
+            <img src="./cloud5.png" alt="" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Cloud Banner Parallax Effect</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est maiores, voluptatum amet atque quas optio illum? Temporibus ea quod, officia ipsa necessitatibus architecto reprehenderit, ab iure unde suscipit cum eveniet tempore? Fuga consequuntur eius id dolor mollitia labore, eaque debitis quidem odio, aliquid molestias temporibus vitae saepe? Reiciendis iusto nesciunt, dolores voluptatem iste incidunt laboriosam corrupti nemo modi omnis debitis at numquam veritatis asperiores eveniet molestias earum labore est ex nulla aliquam impedit cumque sit reprehenderit. Veniam officiis, corrupti tempore architecto unde repellendus obcaecati, eius dolor modi atque quidem? Minus nulla ad corporis, atque iure aspernatur omnis dolor quibusdam porro voluptatum asperiores accusamus molestias optio quasi quisquam, voluptatem aliquid esse possimus nisi sed dicta. Dicta, asperiores libero architecto quia incidunt earum natus ratione recusandae consequuntur, possimus ab vero, harum ad labore? Totam quia iure placeat accusamus molestias consequatur minima velit eaque sequi assumenda rerum tenetur sapiente fugiat quo, delectus voluptate tempore labore molestiae id dolorem vero impedit expedita ex. Doloremque repudiandae at deserunt voluptate voluptatem quo numquam possimus asperiores officiis quas est illum rerum quam quidem deleniti, eum nobis sit dolorum expedita! Ullam ducimus illum repellendus nam reiciendis dolorum! Porro ducimus omnis sequi atque itaque eaque provident. Sunt quae velit ab sequi fuga excepturi, tempora perspiciatis dolorum expedita dicta rerum sint quidem sit ullam voluptas, dolorem necessitatibus. Eligendi cupiditate ad illum aliquid officia! Corrupti veniam temporibus hic expedita non ipsa in, fuga ex aut quas nam fugit? Amet, harum.</p>
+    </section>
+    <script type="text/javascript">
+        let text=document.getElementById('text');
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            text.style.marginBottom = value *2 + 'px';
+        })
+
+    </script>
+</body>
+</html>
